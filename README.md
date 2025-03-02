@@ -1,21 +1,6 @@
-# 🚀 FastAPI Starter
+# 🚀 Chomp App
 
-This repo contains are starter template for FastAPI applications. The project structure may feel a bit opionionated where it matters, but it's flexible enough and follows the repository pattern.
 
-## 💡Motivation
-
-I found myself spending countless hours to setup my FastAPI projects over and over again whenever i needed to run a production-grade application. Authentication, Databases, and other features became a pain to repeatedly setup so I decided to create this template to take away the effort and time wasted.
-
-## 📌 Features
-
--   **🔄 Modular CRUD System** – Reusable base for all entities
--   **🔑 OAuth Authentication** – Google login included, extendable to other providers
--   **📄 Auto-generated OpenAPI Docs** – `/docs` and `/redoc`
--   **📦 Docker Support** – Preconfigured `Dockerfile` & `docker-compose`
--   **🗄️ SQLModel ORM** – A hybrid of SQLAlchemy and Pydantic, all your models and schemas as one entity
--   **🛠️ Background Tasks** – Async task execution support
--   **🔒 JWT-Based Authentication** – Secure access control
--   **✅ Pre-configured Linting & Formatting** – Uses `ruff`
 
 ## 📂 Project Structure
 
@@ -47,8 +32,8 @@ fastapi-starter/
 ### 1️⃣ Clone the Repository
 
 ```sh
-git clone https://github.com/yourusername/fastapi-starter.git
-cd fastapi-starter
+git clone https://github.com/DyeDrake/Chomp.git
+cd Chomp
 ```
 
 ### 2️⃣ Set Up a Virtual Environment with `uv`
